@@ -2,9 +2,10 @@
   "name": "typescript-project-2",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000T\u0000y\u0000p\u0000e\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u0000P\u0000R\u0000O\u0000J\u0000E\u0000C\u0000T\u0000-\u00001\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "(npx parcel ./index.html) & npx parcel watch ./index.html "
   },
   "keywords": [],
   "author": "",
